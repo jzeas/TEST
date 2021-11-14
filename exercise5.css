@@ -1,0 +1,39 @@
+body {
+    
+    background: linear-gradient(rgba(5,7,12,.5),rgba(5,7,12,0.75)),
+    url("./accounting1.jpg") no-repeat center fixed;
+}
+
+main {
+    max-width: 70%;
+    max-height: 40%;
+    margin: 0 auto;
+    background: #fffffff5;
+}
+
+h1{
+    border-bottom: 2px solid #00F; 
+    border-top:none;
+    border-left:none;
+    border-right:none;
+}
+
+h2{
+    border: 2px solid #AAA;
+    margin-top: 40px;
+    height: 60px;
+}
+
+#summary{
+    border-top:4px dotted #f00;
+    border-bottom: 4px dotted #f00;
+    border-left:none;
+    border-right:none;
+}
+
+#data{
+    border: 2px dashed #0f0;
+    
+}
+
+#data li{text-align: justify;}
